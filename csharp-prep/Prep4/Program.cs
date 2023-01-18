@@ -10,8 +10,9 @@ class Program
         int userNum = -1;
         while (userNum != 0)
         {
-            Console.Write("Enter a number (0 to qquit): ")
+            Console.Write("Enter a number (0 to quit): ");
             string userResponse = Console.ReadLine();
+            userNum = int.Parse(userResponse);
 
             if (userNum != 0)
             {
