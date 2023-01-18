@@ -8,11 +8,13 @@ class Program
         int magicNum = randonGenerator.Next(1, 101);
 
         int userNum = -1;
+        int guessNum = 1;
 
         while (userNum != magicNum)
         {
             Console.Write("What is your guess? ");
             userNum = int.Parse(Console.ReadLine());
+            guessNum++;
 
             if (magicNum > userNum)
             {
