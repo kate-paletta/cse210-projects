@@ -20,5 +20,10 @@ class Program
         job2.Display();
 
         Resume resume1 = new Resume();
+        resume1._candidateName = "Kate Paletta";
+
+        resume1._jobs.Add(job1);
+        resume1._jobs.Add(job2);
+        resume1.Display();
     }
 }
