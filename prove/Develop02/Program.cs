@@ -16,6 +16,11 @@ class Program
         //user input variable
         int userChoice = Convert.ToInt32(Console.ReadLine());
 
+        if (userChoice == 1) {
+            Entry write = new Entry();
+            write.userText();
+        }
+
 
     }
 }
