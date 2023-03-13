@@ -21,6 +21,26 @@ class Program
             write.userText();
         }
 
+        if (userChoice == 2)
+        {
+            //Display the file that was saved
+        }
+
+        if (userChoice == 3)
+        {
+            //User loads txt file that they created into the program
+        }
+
+        if (userChoice == 4)
+        {
+            //User can save a txt file that they create
+        }
+
+        if (userChoice == 5)
+        {
+            //ends program
+        }
+
 
     }
 }
